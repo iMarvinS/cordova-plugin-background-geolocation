@@ -217,8 +217,8 @@
         <source-file src="ios/CDVBackgroundGeolocation/LocationUploader.m" />
         <header-file src="ios/CDVBackgroundGeolocation/Logging.h" />
         <source-file src="ios/CDVBackgroundGeolocation/Logging.m" />
-        <header-file src="ios/CDVBackgroundGeolocation/Reachability.h" />
-        <source-file src="ios/CDVBackgroundGeolocation/Reachability.m" />
+        <header-file src="ios/CDVBackgroundGeolocation/BG_Reachability.h" />
+        <source-file src="ios/CDVBackgroundGeolocation/BG_Reachability.m" />
         <header-file src="ios/CDVBackgroundGeolocation/SQLiteHelper.h" />
         <source-file src="ios/CDVBackgroundGeolocation/SQLiteHelper.m" />
         <header-file src="ios/CDVBackgroundGeolocation/SQLiteLocationDAO.h" />
