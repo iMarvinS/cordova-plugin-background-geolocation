@@ -54,9 +54,9 @@ typedef NS_ENUM(NSInteger, NetworkStatus) {
 
 @class BG_Reachability;
 
-typedef void (^NetworkReachable)(Reachability * reachability);
-typedef void (^NetworkUnreachable)(Reachability * reachability);
-typedef void (^NetworkReachability)(Reachability * reachability, SCNetworkConnectionFlags flags);
+typedef void (^NetworkReachable)(BG_Reachability * reachability);
+typedef void (^NetworkUnreachable)(BG_Reachability * reachability);
+typedef void (^NetworkReachability)(BG_Reachability * reachability, SCNetworkConnectionFlags flags);
 
 
 @interface BG_Reachability : NSObject
